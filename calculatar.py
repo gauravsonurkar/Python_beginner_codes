@@ -1,0 +1,5 @@
+print("Addition is = ",5+5)
+print("Devidation is = " ,6/4)
+print("Substraction is = " ,7-2)
+print("modulo is = " , 5%2)
+print("Multiplicaation is = " ,5*4)
