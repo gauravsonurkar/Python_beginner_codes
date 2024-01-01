@@ -1,0 +1,90 @@
+# l = 10; b = 5
+
+
+# print('Area of rectangle: ', l*b)
+
+names = ['Emma',
+        'kelly',
+        'jessa']
+        
+print(names)
+
+
+#dictionary name as a key and mark as a value 
+#string : int
+
+# students = {'Emma' : 70,
+#             'Kelly' : 65,
+#             'jessa' : 75}
+            
+# print(students)            
+
+
+# x = 7
+
+# right hand side of = is a expression statement
+
+# x = x+ 10 is a complete statement 
+
+# x = x + 10 
+
+
+
+# the pass statement 
+
+# pass is a null operation. Nothing happens when it executes. It is useful as a 
+# placeholder when the statement is required syntactically, but no code needs to be 
+# excecuted
+
+# def fun1(arg):
+#     pass
+
+
+# The del statement
+
+#The Python del is use to delete objects / variables.
+
+# syntax
+# del target_list
+
+
+# x = 10 
+# y = 30
+
+# print(x,y)
+
+# del x,y
+
+# print(x,y)
+
+
+# The return statement 
+
+# we create a function in python to perform a specific task, the function can return a value 
+# that is nothing but an output of function excecution 
+
+# using a return function we can return value from a function when called 
+
+# example:
+
+# def addition(num1, num2):
+#     return num1 + num2
+    
+# result = addition (10,20)
+# print(result)
+
+# Import function is used for the import the modules / function
+# Example:
+
+# import datetime
+
+# now = datetime.datetime.now()
+# print(now)
+
+    
+    
+    
+
+
+
+
