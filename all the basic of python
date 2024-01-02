@@ -1,0 +1,201 @@
+# name1 = tony
+# name2 = stark 
+# age = 51 
+
+
+# print(name1 + name2 ,'the age of is ', age + name ,'is a genius')
+
+# name = input("What is your name ")
+# print("Hello " + name)
+
+# old_age = input("Enter your old age: ")
+# new_age = int(old_age) + 2 
+# print(new_age)
+
+# float()
+# str()
+# bool()
+
+# first = int(input("Enter the first number: "))
+# secound = int(input("Enter the first number: "))
+
+# sum1 = first + secound
+# print("The sume is " + str(sum1))
+
+# name = "Tony Stark"
+
+# print(name.upper())
+
+# print(name.lower())
+
+# print(name.find('S'))
+
+# print(name.replace("Tony Stark", "Ironman"))
+
+# print(5**2)
+
+
+# i = 5 
+# i = i+2 
+# i += 2 
+# i *= 2 
+
+
+# result = 2 + 3 * 5
+# print(result)
+
+# print(2>3 or 2>1)
+
+
+# age = int(input("Enter your age: "))
+
+# if age >= 18:
+#     print("You are an adult")
+#     print("You can vote")
+    
+# elif age < 18 and age>3:
+#     print("You are in school")
+
+# else:
+#     print("You are a kid")
+
+
+
+
+# # lets build a calculator
+
+
+# a = int(input("Enter the value of a : "))
+# b = int(input("Enter the value of b : "))
+# x = int(input('''
+# 1. Addition 
+# 2. Multiplication
+# 3. Substraction
+# 4. Division
+# 5. Modulo
+# Enter the operation from above: '''))
+
+
+# if (x == 1 ):
+#     print(a+b)
+# elif(x == 2):
+#     print(a*b)
+# elif(x == 3):
+#     print(a-b)
+# elif(x == 4 ):
+#     print(a/b)
+# elif(x == 5):
+#     print(a%b)
+# else:
+#     print("invalid statement")
+
+
+
+# numbers = range(5)
+# print(numbers)
+
+
+#while loop 
+
+# i = 5
+# while i >= 0:
+#     print(i * "*")
+#     i = i - 1
+
+# marks = [95,98,97]
+# print(marks[-2])
+# print(marks[0:2])
+
+
+# for score in marks:
+#     print(score)
+
+
+# #append operation 
+# marks.append(99)
+
+# print(marks)
+
+# marks.insert(0,99)
+# print(marks)
+
+# print(99 in marks)
+
+# print(len(marks))
+
+
+# i = 0 
+# while i < len(marks):
+#     print(marks[i])
+#     i = i + 1
+    
+# marks.clear()
+# print(marks)
+    
+    
+#break and Continue 
+
+# students = ["ram", "syam" , "kishan", "nisha", "gaurav", "sakshi", "chand"]
+
+# for student in students:
+#     if student == "nisha" :
+#         break;
+#     print(student) 
+    
+# for student in students:
+#     if student == "nisha":
+#         continue;
+#     print(student)        
+    
+#Tuples is immutable we can not change the values once we declared it into the tuple
+
+# marks = (95,98,97,67,90,95)
+
+
+
+# marks = {95,98,97,67,90,95}
+# for score in marks:
+#     print(score)
+
+ 
+
+# from math import sqrt
+# print(sqrt(4))
+
+
+# def function_name(parameters):
+    # do something
+
+
+
+
+# def sum_of (a , b=4):
+#     print(a+b)
+
+
+
+# sum_of(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
