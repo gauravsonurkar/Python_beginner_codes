@@ -1,0 +1,106 @@
+# 1. calculate the multiplication and sum of the two numbers 
+
+
+# def num_pro(num1, num2):
+#     product = num1 * num2
+    
+#     if product <= 1000:
+#         return product
+        
+#     else:
+#         return num1 + num2
+        
+
+
+# result = num_pro(20,30)
+
+# print("The result is ", result)
+
+
+
+# 2. print the sum of the current number and the  previous number 
+
+# write a program to iterate the first 10 numbers, and in each iteration , print the sum 
+# of the current and previous number 
+
+
+# print("printing the sum of the current number and the previous number: ")
+
+# previous_num = 0 
+
+# for i in range(1,11):
+    
+#     x_sum = previous_num + i
+#     print("current_num",i,"previous_num",previous_num, "sum:", x_sum )
+    
+#     previous_num = i
+    
+
+#3. print the characters from a string that are present at an even index number 
+
+# str1 = input ("Enter the number")
+
+# print("Printing the even index chars ")
+
+# size = len(str1)
+
+# for i in range(0,size-1,2):
+#     print(i, "and", str1[i])
+
+
+
+
+#4 remove first n characters from the string
+
+# def remove_char (word, n):
+#     print("Original string ", word)
+#     x = word[n:]
+#     return x
+    
+# print("Removing characters from a string ")
+# print(remove_char("pynative", 4))
+# print(remove_char("pynative", 2))
+
+
+#5 check if the first and last number of list is the same 
+
+# def numbersyste ( numberlist):
+    
+#     print("Original list: ", numberlist)
+#     first_x = numberlist[0]
+#     last_y = numberlist[-1]
+    
+#     if first_x == last_y:
+#         return True
+#     else:
+#         return False
+        
+        
+# number_x = [10, 20, 30, 40, 10]
+# print("result is ", numbersyste(number_x))
+# number_y = [75,65,35,75,30]
+# print("result is ", numbersyste(number_y))
+
+
+#6 Exercise 6: Display numbers divisible by 5 from a list
+
+num_list = [10,20,33,46,55]
+print("Given list: ", num_list)
+print('divisible by 5: ')
+
+for num in num_list:
+    if num % 5 == 0:
+        print(num)
+
+
+
+
+
+
+
+
+
+
+
+    
+    
